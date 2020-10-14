@@ -1,0 +1,48 @@
+.header {
+  padding-top: 30px !important;
+  padding-left: 32px;
+  padding-bottom: 30px;
+  margin-bottom: 32px !important;
+  margin-bottom: 26px !important;
+  background-color: #fafbfc !important;
+  display: block;
+  border-bottom: 1px solid rgb(155, 155, 155);
+}
+
+.text-normal {
+  font-weight: 400 !important;
+  font-size: 20px !important;
+}
+
+.pagination .disabled {
+  color: #d1d5da;
+  cursor: default;
+  background-color: #fafbfc;
+}
+
+.pagination a,
+.pagination span,
+.pagination em {
+  position: relative;
+  float: left;
+  padding: 7px 12px;
+  margin-left: -1px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  color: #0366d6;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #fff;
+  border: 1px solid #e1e4e8;
+}
+
+.active {
+  background-color: #0366d6;
+  color: white;
+}

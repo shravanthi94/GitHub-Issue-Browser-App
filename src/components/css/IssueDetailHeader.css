@@ -1,0 +1,30 @@
+.state {
+  display: inline-block;
+  padding: 4px 8px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #6a737d;
+  border-radius: 3px;
+}
+
+.state-green {
+  background-color: #2cbe4e;
+}
+
+.state-red {
+  background-color: #cb2431;
+}
+
+.issue-body {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  color: #24292e;
+  border: 1px solid rgb(175, 173, 173);
+  border-radius: 10px;
+  font-size: 14px;
+}
